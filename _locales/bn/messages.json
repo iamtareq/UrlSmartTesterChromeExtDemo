@@ -3,6 +3,96 @@
     "message": "UrlSmartTester"
   },
   "appDesc": {
-    "message": "ডেমো এক্সটেনশন"
+    "message": "ওয়েব ফর্ম স্মার্ট পরীক্ষক - নিরাপত্তা এবং ইনপুট যাচাইকরণের জন্য"
+  },
+  "runProbe": {
+    "message": "▶️ প্রোব চালান"
+  },
+  "probeRunning": {
+    "message": "⏳ প্রোব চলছে..."
+  },
+  "probeComplete": {
+    "message": "✅ প্রোব সম্পন্ন"
+  },
+  "probeError": {
+    "message": "❌ প্রোব ত্রুটি"
+  },
+  "openOptions": {
+    "message": "⚙️ সেটিংস"
+  },
+  "noFieldsFound": {
+    "message": "কোনো ইনপুট ফিল্ড পাওয়া যায়নি"
+  },
+  "domainNotAllowed": {
+    "message": "এই ডোমেইনে পরীক্ষার অনুমতি নেই"
+  },
+  "sameOriginError": {
+    "message": "শুধুমাত্র সেইম অরিজিনে অনুমতি আছে"
+  },
+  "testingFields": {
+    "message": "ফিল্ড পরীক্ষা করছে"
+  },
+  "artifactsSaved": {
+    "message": "ফলাফল ডাউনলোডে সংরক্ষিত"
+  },
+  "optionsTitle": {
+    "message": "UrlSmartTester সেটিংস"
+  },
+  "allowDomainsLabel": {
+    "message": "অনুমোদিত ডোমেইন (কমা দিয়ে পৃথক)"
+  },
+  "maxFieldsLabel": {
+    "message": "সর্বোচ্চ ফিল্ড সংখ্যা"
+  },
+  "timeoutLabel": {
+    "message": "টাইমআউট (মিলিসেকেন্ড)"
+  },
+  "sameOriginOnlyLabel": {
+    "message": "শুধুমাত্র সেইম অরিজিন"
+  },
+  "includeSqlInjectionLabel": {
+    "message": "SQL ইনজেকশন পরীক্ষা অন্তর্ভুক্ত করুন"
+  },
+  "includeXssLabel": {
+    "message": "XSS পরীক্ষা অন্তর্ভুক্ত করুন"
+  },
+  "saveSettings": {
+    "message": "সেটিংস সংরক্ষণ করুন"
+  },
+  "resetSettings": {
+    "message": "রিসেট করুন"
+  },
+  "settingsSaved": {
+    "message": "সেটিংস সংরক্ষিত হয়েছে"
+  },
+  "settingsReset": {
+    "message": "সেটিংস রিসেট হয়েছে"
+  },
+  "helpText": {
+    "message": "এই এক্সটেনশন ওয়েব ফর্মের নিরাপত্তা এবং ইনপুট যাচাইকরণ পরীক্ষা করে। অনুমোদিত ডোমেইনে শুধুমাত্র ব্যবহার করুন।"
+  },
+  "warningTitle": {
+    "message": "⚠️ সতর্কতা"
+  },
+  "warningMessage": {
+    "message": "এই টুলটি শুধুমাত্র আপনার নিজস্ব সাইট বা অনুমতিপ্রাপ্ত পরীক্ষার জন্য ব্যবহার করুন।"
+  },
+  "understood": {
+    "message": "বুঝেছি"
+  },
+  "cancel": {
+    "message": "বাতিল"
+  },
+  "close": {
+    "message": "বন্ধ"
+  },
+  "loading": {
+    "message": "লোড হচ্ছে..."
+  },
+  "error": {
+    "message": "ত্রুটি"
+  },
+  "success": {
+    "message": "সফল"
   }
 }
