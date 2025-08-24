@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><title>Demo Test Page</title></head>
+<body>
+  <h2>Demo Login Form</h2>
+  <form id="f">
+    <label>Email: <input type="email" name="email" maxlength="32"></label><br/>
+    <label>Password: <input type="password" name="password" maxlength="16"></label><br/>
+    <button type="submit">Submit</button>
+    <div class="validation" id="msg"></div>
+  </form>
+  <script>
+   document.getElementById('f').addEventListener('submit', function(e){
+     e.preventDefault();
+     var v = document.querySelector('[name=email]').value;
+     if(!v.includes('@')){
+       document.getElementById('msg').textContent='Invalid email';
+       console.error('Email validation failed');
+     } else {
+       document.getElementById('msg').textContent='OK';
+     }
+   });
+  </script>
+</body></html>
