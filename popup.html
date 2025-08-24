@@ -1,2 +1,52 @@
-<!doctype html><html lang="bn"><head><meta charset="utf-8"><title>UrlSmartTester</title></head>
-<body><h1>UrlSmartTester</h1><p>ডেমো চালানোর জন্য testpage.html ওপেন করুন এবং এক্সটেনশন ব্যবহার করুন।</p></body></html>
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8">
+  <title>UrlSmartTester</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <div class="popup-container">
+    <header>
+      <h1>🔍 UrlSmartTester</h1>
+      <div class="url-display">
+        <small>URL: <span id="currentUrl"></span></small>
+      </div>
+    </header>
+    
+    <main>
+      <div class="field-info">
+        <p>📝 ফিল্ড পাওয়া গেছে: <span id="fieldCount">-</span></p>
+      </div>
+      
+      <div class="actions">
+        <button id="runProbe" class="primary-button">
+          ▶️ প্রোব চালান
+        </button>
+        
+        <button id="openOptions" class="secondary-button">
+          ⚙️ সেটিংস
+        </button>
+      </div>
+      
+      <div id="status" class="status info">
+        প্রস্তুত...
+      </div>
+      
+      <div id="warning" class="warning-section" style="display: none;">
+        <h3>⚠️ সতর্কতা</h3>
+        <p>এই টুলটি শুধুমাত্র আপনার নিজস্ব সাইট বা অনুমতিপ্রাপ্ত পরীক্ষার জন্য ব্যবহার করুন।</p>
+      </div>
+    </main>
+    
+    <footer>
+      <div class="help-text">
+        <small>💡 ডেমো চালানোর জন্য testpage.html ওপেন করুন</small>
+      </div>
+    </footer>
+  </div>
+  
+  <script src="popup.js"></script>
+</body>
+</html>
